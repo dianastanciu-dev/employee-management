@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+}
+
+
+p{
+    color: #8A8A8A;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0 0 0 5%;
+
+
+}
+
+.social{
+    padding: 10px;
+    margin: 0 0 0 5%;
+
+}
+
+.social a{
+    color: #8A8A8A;
+    padding: 10px;
+}

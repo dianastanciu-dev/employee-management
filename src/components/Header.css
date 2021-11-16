@@ -4,7 +4,7 @@
 
 Nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: row!important;
     justify-content: right;
     margin-right: 5%;
     margin-top: 5%;
