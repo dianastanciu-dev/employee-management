@@ -5,7 +5,16 @@ import {Nav, Navbar} from 'react-bootstrap';
 function Header(){
     return(
 <div>
+
+<p className="logo">
+    <span style={{ color: '#84a59d' }}> Employee</span>
+    <span style={{ color: '#adf7b6'}}>Up.</span>
+
+</p>
+
+       
 <Navbar>
+ 
         <Nav className="header">
 
             <Nav.Link href="/" className="active">Home</Nav.Link>

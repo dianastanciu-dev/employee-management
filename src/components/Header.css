@@ -2,6 +2,16 @@
     background-color: #282c34;
 }
 
+.logo{
+    position: fixed;
+    margin-left: 5%;
+    letter-spacing: 0.1pc;
+    font-size: 2vw;
+}
+
+
+
+
 Nav{
     display: flex;
     flex-direction: row!important;
@@ -10,6 +20,8 @@ Nav{
     margin-top: 5%;
    
 }
+
+
 
 .active{
     color: bisque;
