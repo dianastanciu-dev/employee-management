@@ -1,6 +1,6 @@
 import './Header.css';
-import {Nav, Navbar} from 'react-bootstrap';
-
+import {Navbar} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 function Header(){
     return(
@@ -15,13 +15,13 @@ function Header(){
        
 <Navbar>
  
-        <Nav className="header">
+        <div className="header">
 
-            <Nav.Link href="/" className="active">Home</Nav.Link>
-            <Nav.Link href="/Solutions.js" className="inactive">Solutions</Nav.Link>
-            <Nav.Link href="/Pricing.js" className="inactive">Pricing</Nav.Link>
-            <Nav.Link href="/Contact.js" className="inactive">Contact</Nav.Link>
-        </Nav>
+            <Link exact to="/" activeClassName="active" className="menu-link">Home</Link>
+            <Link to="/Solutions.js" activeClassName="active" className="menu-link">Solutions</Link>
+            <Link to="/Pricing.js" activeClassName="active" className="menu-link">Pricing</Link>
+            <Link to="/Contact.js" activeClassName="active" className="menu-link">Contact</Link>
+        </div>
     
 </Navbar>
 </div>

@@ -29,7 +29,7 @@ Nav{
 
 
 
-.active{
+.menu-link--active{
     color: bisque;
     font-weight: 600;
     padding: 10px;
@@ -37,7 +37,7 @@ Nav{
   
 }
 
-.inactive{
+.menu-link{
     color: #8A8A8A;
     font-weight: 600;
     padding: 10px;

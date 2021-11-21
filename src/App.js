@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 import './App.css';
@@ -33,41 +34,23 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/solutions">Solutions</Link>
-            </li>
-            <li>
-              <Link to="/pricing">Pricing</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+       <Header />
+            
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/solutions">
-            <Solutions />
-          </Route>
-          <Route path="/pricing">
-            <Pricing />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" component={<Home />} />
+          <Route path="/solutions" component={<Solutions />} />
+          <Route path="/pricing" component={<Pricing />} />
+          <Route path="/contact" component={<Contact />} />
+     
+        </Routes>
+     
+        <Footer />  
       </div>
     </Router>
+  
   );
 }
 
