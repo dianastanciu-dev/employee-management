@@ -1,6 +1,6 @@
 import './Header.css';
 import {Navbar} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 function Header(){
     return(
@@ -17,11 +17,15 @@ function Header(){
  
         <div className="header">
 
-            <Link exact to="/" activeClassName="active" className="menu-link">Home</Link>
-            <Link to="/Solutions.js" activeClassName="active" className="menu-link">Solutions</Link>
-            <Link to="/Pricing.js" activeClassName="active" className="menu-link">Pricing</Link>
-            <Link to="/Contact.js" activeClassName="active" className="menu-link">Contact</Link>
+            <NavLink exact to="/"  className="menu-link">Home</NavLink> {/*NavLink pentru active className*/}
+            
+            <NavLink to="/Solutions.js" className="menu-link">Solutions</NavLink>
+
+            <NavLink to="/Pricing.js"  className="menu-link">Pricing</NavLink>
+            
+            <NavLink to="/Contact.js"  className="menu-link">Contact</NavLink>
         </div>
+    
     
 </Navbar>
 </div>

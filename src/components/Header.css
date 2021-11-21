@@ -28,20 +28,23 @@ Nav{
 }
 
 
-
-.menu-link--active{
-    color: bisque;
-    font-weight: 600;
-    padding: 10px;
-    text-decoration: none;
-  
-}
-
+/*Atentie la ordinea claselor aici.
+ Sunt aplicate in ordinea in care sunt scrise aici, 
+ iar daca sunt mai multe fisiere CSS conteaza si ordinea in care sunt importate*/
+ 
 .menu-link{
     color: #8A8A8A;
     font-weight: 600;
     padding: 10px;
     text-decoration: none;
+}
+
+.active{
+    color: bisque;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+  
 }
 
 .Link:hover{
