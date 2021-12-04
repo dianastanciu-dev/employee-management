@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/Header"
+import Header from "components/Header"
 import Footer from "./components/Footer"
 import {
   BrowserRouter as Router,
@@ -14,21 +14,6 @@ import Solutions from './components/Solutions.js'
 import Contact from './components/Contact.js'
 
 
-{/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-   <p>App Content</p>
-
-      </header>
-    </div>
-  );
-}
-
-export default App;
-
-*/}
 
 export default function App() {
   return (
@@ -39,11 +24,12 @@ export default function App() {
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
+            
         <Routes>
-          <Route path="/" component={<Home />} />
-          <Route path="/solutions" component={<Solutions />} />
-          <Route path="/pricing" component={<Pricing />} />
-          <Route path="/contact" component={<Contact />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/solutions" element={<Solutions />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/contact" element={<Contact />} />
      
         </Routes>
      
