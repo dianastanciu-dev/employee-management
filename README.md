@@ -4,7 +4,7 @@
 
 ### NVM Manager
 
-### REACT ROUTER
+### React Router
 
-### LOCAL STORAGE
+### Local Storage
 
