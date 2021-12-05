@@ -14,7 +14,6 @@ export default function Home(){
     
     return(
 <div>
-    <p>Home page</p>
 <ul>
     {employees.map((item, index)=>{
        return <div className="employeeCard">
