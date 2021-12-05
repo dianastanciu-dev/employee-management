@@ -15,7 +15,11 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .logo { font-size: 4vw};
+    .logo { 
+        font-size: 8vw;
+        margin-bottom: 3vh;
+    }
+    
 }
 
 Nav{
