@@ -4,7 +4,8 @@
         "SecondName":"Palmer",
         "Position":"Executive",
         "Id":"12232412",
-        "Details":"Excepteur sint <strong>occaecat cupidatat non proident</strong>, sunt in culpa qui officia <em>deserunt mollit</em> anim id est laborum.",
+        "Details":
+        "Great public speaking skills. Ability to work independently and in a team. Ability to juggle multiple projects at once.",
         "Blocked":true
     },
     {
@@ -12,7 +13,7 @@
         "SecondName":"Tyler",
         "Position":"HR",
         "Id":"34232412",
-        "Details":"Duis animal efficiantur an ius, <strong>sed at ferri erant</strong> timeam.",
+        "Details": "Communication skills. Decision making. Organization skills",
         "Blocked":false
     },
     {
@@ -20,7 +21,7 @@
         "SecondName":"Day",
         "Position":"Backend Developer",
         "Id":"103433323",
-        "Details":"Duis animal efficiantur an ius, <strong>sed at ferri erant</strong> timeam.",
+        "Details":"Communication. Time management and organization. Collaboration and teamwork. Problem solving",
         "Blocked":false
     },
     {
@@ -28,7 +29,7 @@
         "SecondName":"Pearson",
         "Position":"Frontend Developer",
         "Id":"99233232",
-        "Details":"Excepteur sint <strong>occaecat cupidatat non proident</strong>, sunt in culpa qui officia <em>deserunt mollit</em> anim id est laborum.",
+        "Details":"Communication. Time management and organization. Collaboration and teamwork. Problem solving. Creativity",
         "Blocked":false
     },
     {
@@ -36,7 +37,7 @@
         "SecondName":"Wheeler",
         "Position":"Production Manager",
         "Id":"77373123",
-        "Details":"Excepteur sint <strong>occaecat cupidatat non proident</strong>, sunt in culpa qui officia <em>deserunt mollit</em> anim id est laborum.",
+        "Details":"Critical thinking and analytical skills. Leadership and the ability to take initiative. Flexibility. Problem-solving. Time management. Communication Skills.",
         "Blocked":false
     },
     {
@@ -44,7 +45,7 @@
         "SecondName":"Sandoval",
         "Position":"Tester",
         "Id":"938420394",
-        "Details":"Duis animal efficiantur an ius, <strong>sed at ferri erant</strong> timeam.",
+        "Details":"Communication. Ability to work independently and in a team. Understanding the user perspective",
         "Blocked":false
         
     }

@@ -14,13 +14,20 @@ export default function Home(){
     
     return(
 <div>
-<ul>
+
     {employees.map((item, index)=>{
        return <div className="employeeCard">
-              <li key={index}>{item.FirstName}</li>
+                  <ul>
+                    <li key={index}>
+                                {item.FirstName+" "}
+                                {item.SecondName}<br/>
+                                {item.Position}<br/><br/>
+                                {item.Details}
+                    </li>
+                  </ul>
               </div> 
     }) }
-</ul>
+
 
 </div>
     )
