@@ -1,0 +1,52 @@
+*{
+    background-color: #282c34;
+}
+
+.logo{
+    position: static;
+    margin-left: 5%;
+    margin-top: 2%;
+    letter-spacing: 0.1pc;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo { font-size: 6vw};
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo { font-size: 4vw};
+}
+
+Nav{
+    display: flex;
+    flex-direction: row!important;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: 3%;
+   
+}
+
+
+/*Atentie la ordinea claselor aici.
+ Sunt aplicate in ordinea in care sunt scrise aici, 
+ iar daca sunt mai multe fisiere CSS conteaza si ordinea in care sunt importate*/
+ 
+.menu-link{
+    color: #8A8A8A;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.active{
+    color: bisque;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+  
+}
+
+.Link:hover{
+    color: bisque;
+}
