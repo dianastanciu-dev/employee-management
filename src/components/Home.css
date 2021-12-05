@@ -7,8 +7,8 @@
 
 .employeeCard li{
 
-      width: 15vw;  
-      height: 15vw;
+      width: 13vw;  
+      height: 13vw;
       padding: calc(5vw - 20px);
       border-radius: 25px;
       font-size: 1.2em;    
@@ -19,6 +19,7 @@ ul{
       list-style: none;
       display: flex;
       justify-content: flex-start;
+      width: auto;
 }
 
 li{
@@ -26,3 +27,16 @@ li{
       background-color: #837388;
 }
 
+
+@media screen and (max-width: 700px) {
+      .employeeCard{
+            margin: 5vh;
+      }
+
+      .employeeCard li{
+            width: 25vw;  
+            height: 25vw;
+            padding: calc(18vw - 20px);  
+      }
+      
+}
