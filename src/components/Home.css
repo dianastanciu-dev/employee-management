@@ -31,6 +31,10 @@ li{
            margin-top: 10vh;
      }
 
+     .employeeCard{
+      margin: 5vh;  
+}
+
       .employeeCard li{
             margin: auto;
             width: 40vw; 
