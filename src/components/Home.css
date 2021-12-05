@@ -1,0 +1,25 @@
+.employeeCard{
+      /*background-color: #837388;*/
+      margin: 10vh;
+      display: flex;
+      justify-content: flex-start;
+      
+  
+}
+
+.employeeCard li{
+      flex-direction: row!important;  
+      width: 15vw;  
+      height: 15vw;
+      padding: calc(5vw - 20px);
+      
+}
+
+ul{
+      list-style: none;
+}
+
+li{
+      background-color: #837388;
+}
+

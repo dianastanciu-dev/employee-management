@@ -1,4 +1,5 @@
- 
+import './Home.css';
+
 export default function Home(){
     let data;
     let employees = JSON.parse(localStorage.getItem('employees'))//JSON.parse transforma string in array
@@ -16,8 +17,9 @@ export default function Home(){
     <p>Home page</p>
 <ul>
     {employees.map((item, index)=>{
-       return <li key={index}> {item.FirstName}</li>
-
+       return <div className="employeeCard">
+              <li key={index}>{item.FirstName}</li>
+              </div> 
     }) }
 </ul>
 
